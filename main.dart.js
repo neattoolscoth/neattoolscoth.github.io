@@ -18038,8 +18038,9 @@ _.e=c
 _.f=d
 _.a=e
 _.b=f},
-lp:function lp(a,b){this.a=a
-this.d=b},
+lp:function lp(a,b,c){this.a=a
+this.b=b
+this.d=c},
 tE:function tE(a,b,c,d,e){var _=this
 _.c=a
 _.d=b
@@ -54675,7 +54676,7 @@ l=i
 if(m!==1)l=P.aE(C.d.aW(255*((l.gn(l)>>>24&255)/255*m)),l.gn(l)>>>16&255,l.gn(l)>>>8&255,l.gn(l)&255)
 i=this.c
 q=H.bI(i.a)
-k=T.aaJ(j,j,C.vy,!0,j,Q.fe(j,j,A.vB(j,j,l,j,j,j,j,j,"MaterialIcons",j,j,n,j,j,j,j,!1,j,j,j,j,j,j,j,j),q),C.a6,s,j,1,C.aD)
+k=T.aaJ(j,j,C.vy,!0,j,Q.fe(j,j,A.vB(j,j,l,j,j,j,j,j,i.b,j,j,n,j,j,j,j,!1,j,j,j,j,j,j,j,j),q),C.a6,s,j,1,C.aD)
 if(i.d)switch(s){case C.p:i=new E.aR(new Float64Array(16))
 i.cW()
 i.hd(0,-1,1,1)
@@ -54683,14 +54684,15 @@ k=T.aeX(C.W,k,i,!1)
 break
 case C.k:break}return T.dm(j,new T.l8(!0,T.Ez(T.qQ(k,j,j),n,n),j),!1,j,j,!1,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j)}}
 X.lp.prototype={
-k(a,b){var s
+k(a,b){var s,r=this
 if(b==null)return!1
-if(J.M(b)!==H.A(this))return!1
-if(b instanceof X.lp)if(b.a===this.a)s=b.d===this.d
+if(J.M(b)!==H.A(r))return!1
+if(b instanceof X.lp)if(b.a===r.a)if(b.b===r.b)s=b.d===r.d
+else s=!1
 else s=!1
 else s=!1
 return s},
-gu(a){return P.R(this.a,"MaterialIcons",null,this.d,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a)},
+gu(a){return P.R(this.a,this.b,null,this.d,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a,C.a)},
 i(a){return"IconData(U+"+C.c.u2(C.f.iN(this.a,16).toUpperCase(),5,"0")+")"}}
 Y.lq.prototype={
 cE(a){return!this.x.k(0,a.x)}}
@@ -60999,12 +61001,12 @@ q=t.p
 p=T.cY(H.a([M.aW(m,new Q.CQ("assets/images/cnc-cincom.jpg",new N.b8(m,t.A),m),m,m,s,m,new V.ar(8,0,8,0),a.O(l).f.a.a),M.aW(m,m,m,m,10,m,m,m),new T.cO(new V.ar(8,0,8,0),M.aW(m,T.al8(U.Td("assets/images/dark-stone-surface.jpg",m,m),C.fH,C.dH),m,m,r,m,m,a.O(l).f.a.a),m)],q),C.V,C.T,C.C)
 o=M.qC("WE MAKE",1,10,B.cb(C.j,m,a.O(l).f.a.a<650?50:80,C.cS))
 n=s-r/2-10
-return T.oJ(C.bv,H.a([p,M.aW(m,T.hU(H.a([T.cY(H.a([o,M.aW(m,M.qC("NEAT TOOLS",1,10,B.cb(C.t,m,a.O(l).f.a.a<650?50:80,C.cS)),C.j,m,m,m,m,m)],q),C.V,C.bo,C.C)],q),C.V,C.bo,C.C),m,m,n,m,m,m),new T.cO(new V.ar(0,n,0,0),M.aW(m,T.hU(H.a([new R.oG(m),this.wY(a,C.z4,"About us",C.j,new U.SU()),this.wY(a,C.z5,"Product",new P.C(4293783021),new U.SV()),this.wY(a,C.z3,"Contact us",new P.C(4292269782),new U.SW()),new R.oG(m)],q),C.V,C.T,C.C),m,m,m,m,m,m),m)],q),C.bR)},
+return T.oJ(C.bv,H.a([p,M.aW(m,T.hU(H.a([T.cY(H.a([o,M.aW(m,M.qC("NEAT TOOLS",1,10,B.cb(C.t,m,a.O(l).f.a.a<650?50:80,C.cS)),C.j,m,m,m,m,m)],q),C.V,C.bo,C.C)],q),C.V,C.bo,C.C),m,m,n,m,m,m),new T.cO(new V.ar(0,n,0,0),M.aW(m,T.hU(H.a([new R.oG(m),this.wY(a,C.z5,"About us",C.j,new U.SU()),this.wY(a,C.z3,"Product",new P.C(4293783021),new U.SV()),this.wY(a,C.z4,"Contact us",new P.C(4292269782),new U.SW()),new R.oG(m)],q),C.V,C.T,C.C),m,m,m,m,m,m),m)],q),C.bR)},
 WH(a){var s,r=null
 if(a.O(t.w).f.a.a>=1100)s=42
 else s=M.hT(a)?30:20
-return M.aW(r,T.cY(H.a([new T.cO(C.fT,L.cu("Are You Interested in Our Services?",r,r,r,r,r,r,r,B.cb(C.j,r,s,C.ak),C.a1,r,r),r),new D.jE(C.t,"Contact us".toUpperCase(),C.j,new U.SX(),r)],t.p),C.V,C.T,C.C),new P.C(4281545523),r,r,r,r,r)},
-wY(a,b,c,d,e){var s,r,q=null,p=T.fw(L.als(b,50),2),o=t.w
+return M.aW(r,T.cY(H.a([new T.cO(C.fT,L.cu("Are You Interested in Our Product?",r,r,r,r,r,r,r,B.cb(C.j,r,s,C.ak),C.a1,r,r),r),new D.jE(C.t,"Contact us".toUpperCase(),C.j,new U.SX(),r)],t.p),C.V,C.T,C.C),new P.C(4281545523),r,r,r,r,r)},
+wY(a,b,c,d,e){var s,r,q=null,p=T.fw(L.als(b,40),2),o=t.w
 if(a.O(o).f.a.a>=1100)s=20
 else s=M.hT(a)?20:12
 r=t.ao
@@ -61081,7 +61083,7 @@ YE(a){var s,r,q,p=null,o=4293783021,n=t.w
 if(a.O(n).f.a.a>=1100)s=30
 else s=M.hT(a)?30:20
 n=!(a.O(n).f.a.a>=1100)?C.fT:C.dT
-r=new T.cO(n,L.cu("Need One Of Them? Give Us a Call Now!",p,p,p,p,p,p,p,B.cb(p,p,s,C.ak),C.a1,p,p),p)
+r=new T.cO(n,L.cu("Need One Of Them? or Custom Made?",p,p,p,p,p,p,p,B.cb(p,p,s,C.ak),C.a1,p,p),p)
 q=new D.jE(C.j,"Contact us".toUpperCase(),C.aq,new Z.WE(),p)
 n=t.p
 return new M.m0(M.aW(p,T.cY(H.a([r,q],n),C.V,C.T,C.C),new P.C(o),p,p,p,p,p),M.aW(p,T.cY(H.a([r,q],n),C.V,C.T,C.C),new P.C(o),p,p,p,p,p),M.aW(C.W,T.hU(H.a([r,M.aW(p,p,p,p,p,p,p,100),q],n),C.V,C.bo,C.C),new P.C(o),p,p,p,p,p),p)}}
@@ -63787,16 +63789,16 @@ C.b8=new T.nD("HeroFlightDirection.pop")
 C.c5=new E.rN("HitTestBehavior.deferToChild")
 C.bk=new E.rN("HitTestBehavior.opaque")
 C.bl=new E.rN("HitTestBehavior.translucent")
-C.z3=new X.lp(63081,!1)
-C.z4=new X.lp(63477,!1)
-C.z5=new X.lp(983508,!1)
+C.z3=new X.lp(59392,"ShineoutIcon",!1)
+C.z4=new X.lp(63081,"MaterialIcons",!1)
+C.z5=new X.lp(63477,"MaterialIcons",!1)
 C.D=new P.C(3707764736)
 C.z6=new T.e4(C.D,null,null)
 C.fZ=new T.e4(C.t,1,24)
 C.jR=new T.e4(C.t,null,null)
 C.h_=new T.e4(C.j,null,null)
 C.z7=new T.e4(null,null,36)
-C.z2=new X.lp(58727,!1)
+C.z2=new X.lp(58727,"MaterialIcons",!1)
 C.z8=new L.rQ(C.z2,null,null)
 C.za=new X.nG("ImageRepeat.repeat")
 C.zb=new X.nG("ImageRepeat.repeatX")
