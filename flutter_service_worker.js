@@ -5,8 +5,8 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "917a11a91da7b29ac06fbf2385a6be6f",
 "favicon.ico": "d80f8e834ab96ea8b0237cc4d559df24",
-"index.html": "fd3e11649a3f05633c6a334deeadc093",
-"/": "fd3e11649a3f05633c6a334deeadc093",
+"index.html": "ee14209bcc3bb2a44c7d9a072ad6d126",
+"/": "ee14209bcc3bb2a44c7d9a072ad6d126",
 "styles.css": "3bcb2ce7b2f079b344ab1b0230e13321",
 "main.dart.js": "94baa2ca702fa14f8d8c2b221ca3c3b8",
 "img/Neat-Tools-Banner-2.png": "326df15f80cd7f7057edd44a9828e0d7",
@@ -74,7 +74,8 @@ const RESOURCES = {
 "assets/assets/images/machine_logo_14.png": "a076959286339ef8224c5ce8be1de91f",
 "assets/assets/images/neattools_product_10.jpg": "117029b129778d658c97128d7b7fdcad",
 "assets/assets/images/machine_logo_8.png": "9a759b7bb557feb8a706aa3abecdc2d8",
-"assets/assets/fonts/ShineoutIcon.ttf": "9f158a8d6c979128ce1cef9d1909eb51"
+"assets/assets/fonts/ShineoutIcon.ttf": "9f158a8d6c979128ce1cef9d1909eb51",
+"favicon.svg": "d0600998b8db874bb6ad5f371e64fb02"
 };
 
 // The application shell files that are downloaded before a service worker can
