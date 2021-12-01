@@ -5,10 +5,10 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "917a11a91da7b29ac06fbf2385a6be6f",
 "favicon.ico": "d80f8e834ab96ea8b0237cc4d559df24",
-"index.html": "c2dad7f92b82e075f5c66236a632c925",
-"/": "c2dad7f92b82e075f5c66236a632c925",
+"index.html": "cccb567987da6bdd814f9ba559b018f9",
+"/": "cccb567987da6bdd814f9ba559b018f9",
 "styles.css": "3bcb2ce7b2f079b344ab1b0230e13321",
-"main.dart.js": "996df500e6e7a3710bee84436ba9fb89",
+"main.dart.js": "3ee4d0af32079c34d97bfcd5d7ac659b",
 "img/Neat-Tools-Banner-2.png": "326df15f80cd7f7057edd44a9828e0d7",
 "favicon.png": "a16d6f835695c0aadaa9b4f95b7a2e6f",
 "icons/Icon-192.png": "c913da70ec823fb227e3b5de0a7d8bd3",
@@ -74,7 +74,7 @@ const RESOURCES = {
 "assets/assets/images/machine_logo_14.png": "a076959286339ef8224c5ce8be1de91f",
 "assets/assets/images/neattools_product_10.jpg": "117029b129778d658c97128d7b7fdcad",
 "assets/assets/images/machine_logo_8.png": "9a759b7bb557feb8a706aa3abecdc2d8",
-"assets/assets/fonts/ShineoutIcon.ttf": "9f158a8d6c979128ce1cef9d1909eb51",
+"assets/assets/fonts/ShineoutIcon.ttf": "71633c17cb179382aaa9bbcb44e8692e",
 "favicon.svg": "d0600998b8db874bb6ad5f371e64fb02"
 };
 
