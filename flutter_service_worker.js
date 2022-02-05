@@ -5,8 +5,8 @@ const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "35a2273e70e8ec566eaf7f6d1c0e695e",
 "favicon.ico": "d80f8e834ab96ea8b0237cc4d559df24",
-"index.html": "e0177edae699d982815b6b7b125c10c8",
-"/": "e0177edae699d982815b6b7b125c10c8",
+"index.html": "b51c864bf253fc4688523aa990541da9",
+"/": "b51c864bf253fc4688523aa990541da9",
 "styles.css": "3bcb2ce7b2f079b344ab1b0230e13321",
 "main.dart.js": "64e3618576554ced3ca4a19e8cfd3500",
 "img/Neat-Tools-Banner-2.png": "326df15f80cd7f7057edd44a9828e0d7",
