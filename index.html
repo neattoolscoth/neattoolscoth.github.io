@@ -91,8 +91,29 @@
       // window.flutterWebRenderer = "auto"; //"canvaskit";
     }
   </script>
+
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+  <!-- Firebase Configuration -->
   <script>
-    var serviceWorkerVersion = '2483049862';
+    const firebaseConfig = {
+      apiKey: "AIzaSyA-3Ynn8SoqlnHbM_Yw8RI-Tg6BtQuB5dQ",
+      authDomain: "neattools-9a485.firebaseapp.com",
+      databaseURL: 'https://neattools-9a485.firebaseio.com',
+      projectId: "neattools-9a485",
+      storageBucket: "neattools-9a485.appspot.com",
+      messagingSenderId: "577203067763",
+      appId: "1:577203067763:web:fe2e8e3653d541bd2f8306",
+      measurementId: "G-VKCV158FE1"
+    };
+
+    // Initialize Firebase
+    const app = firebase.initializeApp(firebaseConfig);
+    const analytics = firebase.getAnalytics(app);
+  </script>
+
+  <script>
+    var serviceWorkerVersion = '3441093968';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
